@@ -1,9 +1,16 @@
-import Image from "next/image";
+import Link from "next/link"
+import Image from "next/image"
+import { Flex, Box, Text, Button } from "@charkra-ui/react"
 
+const Banner = () => {
+  <flex flexwrap="wrap">
+
+  </flex>
+}
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-    </main>
-  );
+    <div>
+      Home
+    </div>
+  )
 }
